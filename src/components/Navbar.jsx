@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a className="navbar-brand" href="#">
           Navbar
         </a>
         <button
@@ -23,7 +23,7 @@ export const Navbar = () => {
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/netflixhome">
                 NEtflix Home
               </Link>
@@ -58,6 +58,57 @@ export const Navbar = () => {
                 usestatedemo3
               </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/Employees">
+              Employees
+              </Link>
+            </li>
+             <li class="nav-item">
+              <Link class="nav-link" to="/formdemo1">
+              formdemo1
+             </Link>
+            </li>
+             <li class="nav-item">
+              <Link class="nav-link" to="/formdemo2">
+              formdemo2
+             </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo3">
+              formdemo3
+             </Link>
+            </li> */}
+            <li class="nav-item">
+              <Link class="nav-link" to="/formvalidation1">
+              formvalidation1
+             </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formvalidation2">
+              formvalidation2
+             </Link>
+            </li>
+            <li className="nav-item">
+              <Link class="nav-link" to="/formvalidation3">
+              formvalidation3
+             </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/apidemo1">
+                apidemo1
+              </Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link" to="/apidemo2">
+                apidemo2
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link" to="/apidemo3">
+                apidemo3
+                </Link>
+              </li>
+            
           </ul>
         </div>
       </nav>
